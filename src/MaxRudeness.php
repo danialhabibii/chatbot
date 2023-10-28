@@ -4,8 +4,8 @@ namespace Thekrkv\Chatbot;
 
 class MaxRudeness
 {
-    public function askQuestion()
+    public function askQuestion($question)
     {
-        return "what do you think?";
+        return $question . "<br/>what do you think?";
     }
 }
