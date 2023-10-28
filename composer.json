@@ -1,0 +1,17 @@
+{
+    "name": "thekrkv/chatbot",
+    "description": "A basic package creation",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thekrkv\\Chatbot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MRD"
+        }
+    ],
+    "require": {}
+}
